@@ -24,7 +24,6 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-bundler'
 Plugin 'tpope/vim-commentary'
-Plugin 'tpope/vim-cucumber'
 Plugin 'tpope/vim-dispatch'
 Plugin 'tpope/vim-endwise'
 Plugin 'tpope/vim-pastie'
@@ -38,6 +37,7 @@ Plugin 'vim-ruby/vim-ruby'
 Plugin 'vim-scripts/Align'
 Plugin 'vim-scripts/greplace.vim'
 Plugin 'vim-scripts/matchit.zip'
+Plugin 'rust-lang/rust.vim'
 
 call vundle#end()            " required
 
@@ -87,6 +87,10 @@ let g:NERDSpaceDelims=1
 let g:gitgutter_enabled=0
 
 let python_highlight_all=1
+
+let g:rustfmt_autosave=1
+
+let g:syntastic_rust_checkers = ['rustc']
 
 " fdoc is yaml
 autocmd BufRead,BufNewFile *.fdoc set filetype=yaml
