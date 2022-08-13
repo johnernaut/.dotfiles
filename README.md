@@ -10,6 +10,7 @@ A few things need to be installed on your machine before running the install scr
     * packer.nvim
 * fzf
 * ripgrep
+* stow
 
 #### Install
 Clone this repo into your `$HOME` directory then run `./install` from within it.
