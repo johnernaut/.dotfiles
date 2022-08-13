@@ -102,6 +102,7 @@ source $ZSH/oh-my-zsh.sh
 
 export DOTFILES=$HOME/.dotfiles
 export STOW_FOLDERS="bin,i3,nvim,tmux,zsh"
+export GIT_EDITOR=nvim
 
 addToPath() {
     if [[ "$PATH" != *"$1"* ]]; then
