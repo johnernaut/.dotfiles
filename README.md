@@ -7,10 +7,11 @@ A few things need to be installed on your machine before running the install scr
 
 * oh-my-zsh (run `rm ~/.zshrc` afterwards since we'll be replacing that file)
 * neovim >= 0.7.0
-    * packer.nvim
+    * packer.nvim (use their install command on your CLI)
 * fzf
 * ripgrep
 * stow
+* fd-find
 
 #### Install
 Clone this repo into your `$HOME` directory then run `./install` from within it.
