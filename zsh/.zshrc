@@ -101,6 +101,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 export DOTFILES=$HOME/.dotfiles
+export STOW_FOLDERS="bin,i3,nvim,tmux,zsh"
 
 addToPath() {
     if [[ "$PATH" != *"$1"* ]]; then
