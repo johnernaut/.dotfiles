@@ -3,6 +3,8 @@ require('lspconfig').solargraph.setup{
   capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
 }
 
+require('lspconfig').sorbet.setup{}
+
 local nvim_lsp = require('lspconfig')
 
 -- Use an on_attach function to only map the following keys

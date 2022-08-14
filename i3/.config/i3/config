@@ -168,6 +168,7 @@ bar {
 # CUSTOM KEYS START
 # ------------------------------------------
 exec --no-startup-id nm-applet
+exec --no-startup-id vmware-user-suid-wrapper
 
 # FKeys
 # Pulse Audio controls
