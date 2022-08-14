@@ -100,10 +100,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export DOTFILES=$HOME/.dotfiles
-export STOW_FOLDERS="bin,i3,nvim,tmux,zsh"
-export GIT_EDITOR=nvim
-
 addToPath() {
     if [[ "$PATH" != *"$1"* ]]; then
         export PATH=$PATH:$1
@@ -118,6 +114,13 @@ addToPathFront() {
 
 addToPathFront $HOME/.rbenv/bin
 addToPathFront $HOME/.local/bin
+addToPathFront /usr/local/go/bin
+addToPathFront /usr/local/bin
+
+export DOTFILES=$HOME/.dotfiles
+export STOW_FOLDERS="bin,i3,nvim,tmux,zsh"
+export GIT_EDITOR=nvim
+export GOPATH=$HOME/gocode
 
 # Start a search for a dir to start a tmux session
 bindkey -s ^f "tmux-sessionizer\n"

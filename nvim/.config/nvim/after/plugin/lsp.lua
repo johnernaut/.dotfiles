@@ -130,3 +130,10 @@ require('lspconfig').solargraph.setup{
 }
 
 require('lspconfig').sorbet.setup{}
+
+-- Golang
+require'lspconfig'.gopls.setup{}
+require'lspconfig'.golangci_lint_ls.setup{}
+
+-- C#
+require'lspconfig'.csharp_ls.setup{}
