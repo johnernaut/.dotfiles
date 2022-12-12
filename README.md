@@ -6,7 +6,7 @@ This is both a linux and zsh specific set of configuration files.
 A few things need to be installed on your machine before running the install script:
 
 * oh-my-zsh (run `rm ~/.zshrc` afterwards since we'll be replacing that file)
-* neovim >= 0.7.0
+* neovim >= 0.9.0
     * packer.nvim (use their install command on your CLI)
 * fzf
 * ripgrep
