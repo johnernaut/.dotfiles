@@ -6,6 +6,7 @@ return require("packer").startup(function(use)
   use("tpope/vim-fugitive")
   use("folke/tokyonight.nvim")
   use("mbbill/undotree")
+  use("folke/zen-mode.nvim")
   use({
 	  "nvim-telescope/telescope.nvim", tag = "0.1.0",
 	  requires = { {"nvim-lua/plenary.nvim"} }
