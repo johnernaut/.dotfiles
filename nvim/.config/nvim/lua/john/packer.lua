@@ -5,6 +5,8 @@ return require("packer").startup(function(use)
   use("ThePrimeagen/harpoon")
   use("tpope/vim-fugitive")
   use("folke/tokyonight.nvim")
+  use("numToStr/Comment.nvim")
+  use("tpope/vim-sleuth")
   use("mbbill/undotree")
   use("folke/zen-mode.nvim")
   use({
