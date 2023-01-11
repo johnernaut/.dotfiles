@@ -9,6 +9,10 @@ return require("packer").startup(function(use)
   use("tpope/vim-sleuth")
   use("mbbill/undotree")
   use("folke/zen-mode.nvim")
+  use {
+	  "windwp/nvim-autopairs",
+	  config = function() require("nvim-autopairs").setup {} end
+  }
   use({
 	  "nvim-telescope/telescope.nvim", tag = "0.1.0",
 	  requires = { {"nvim-lua/plenary.nvim"} }
