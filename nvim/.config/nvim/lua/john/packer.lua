@@ -9,6 +9,8 @@ return require("packer").startup(function(use)
   use("tpope/vim-sleuth")
   use("mbbill/undotree")
   use("folke/zen-mode.nvim")
+  use("github/copilot.vim")
+  use("nvim-treesitter/nvim-treesitter-context")
   use {
 	  "windwp/nvim-autopairs",
 	  config = function() require("nvim-autopairs").setup {} end
