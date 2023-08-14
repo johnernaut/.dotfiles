@@ -1,4 +1,3 @@
-require("john.remap");
 require("john.packer");
 
 vim.g.mapleader = " "

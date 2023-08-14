@@ -112,6 +112,7 @@ addToPathFront() {
     fi
 }
 
+addToPathFront $HOME/.cargo/env
 addToPathFront $HOME/.rbenv/bin
 addToPathFront $HOME/.local/bin
 addToPathFront /usr/local/go/bin
@@ -124,5 +125,10 @@ export GOPATH=$HOME/gocode
 
 # Start a search for a dir to start a tmux session
 bindkey -s ^f "tmux-sessionizer\n"
+
+alias vim="nvim"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
 eval "$(rbenv init -)"
