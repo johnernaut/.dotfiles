@@ -24,6 +24,7 @@ vim.opt.undofile = true
 
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
+vim.opt.cursorline = true
 
 vim.opt.termguicolors = true
 
@@ -67,3 +68,7 @@ vim.keymap.set("x", "<leader>p", [["_dP]])
 -- next greatest remap ever : asbjornHaland
 vim.keymap.set({"n", "v"}, "<leader>y", [["+y]])
 vim.keymap.set("n", "<leader>Y", [["+Y]])
+
+-- ruby
+vim.g.loaded_ruby_provider = nil
+vim.g.ruby_host_prog = os.getenv("HOME") .. "/.rbenv/shims/ruby"

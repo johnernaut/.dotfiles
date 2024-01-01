@@ -8,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="agnoster"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -70,7 +70,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git dotenv)
+plugins=(git dotenv pyenv python history tmux vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -100,6 +100,18 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# to hide username in oh-my-zsh agnoster theme
+export DEFAULT_USER="$(whoami)"
+
+alias be="bundle exec"
+
+fd() {
+    local dir
+    dir=$(find ${1:-.} -path '*/\.*' -prune \
+        -o -type d -print 2> /dev/null | fzf +m) &&
+        cd "$dir"
+}
+
 addToPath() {
     if [[ "$PATH" != *"$1"* ]]; then
         export PATH=$PATH:$1
@@ -112,23 +124,41 @@ addToPathFront() {
     fi
 }
 
-addToPathFront $HOME/.cargo/env
-addToPathFront $HOME/.rbenv/bin
-addToPathFront $HOME/.local/bin
-addToPathFront /usr/local/go/bin
-addToPathFront /usr/local/bin
-
 export DOTFILES=$HOME/.dotfiles
 export STOW_FOLDERS="bin,i3,nvim,tmux,zsh"
 export GIT_EDITOR=nvim
 export GOPATH=$HOME/gocode
 
+addToPathFront $HOME/.cargo/env
+addToPathFront $HOME/.rbenv/bin
+addToPathFront $HOME/.local/bin
+addToPathFront /usr/local/go/bin
+addToPathFront /usr/local/bin
+addToPathFront /opt/homebrew/opt/postgresql@12/bin
+addToPathFront $GOPATH/bin
+
+pys() {
+    python manage.py tenant_command shell --schema=$1
+}
+
+pyt() {
+    python manage.py test $1 --keepdb --failfast
+}
+
+export PYTHONBREAKPOINT=ipdb.set_trace
+
 # Start a search for a dir to start a tmux session
 bindkey -s ^f "tmux-sessionizer\n"
 
 alias vim="nvim"
+alias t="terraform"
+export EDITOR="nvim"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
 eval "$(rbenv init -)"
