@@ -16,7 +16,7 @@ return require("packer").startup(function(use)
 	use("folke/zen-mode.nvim")
 	use("github/copilot.vim")
 	use("nvim-treesitter/nvim-treesitter-context")
-	use("jose-elias-alvarez/null-ls.nvim")
+	use("nvimtools/none-ls.nvim")
 	use {
 		"windwp/nvim-autopairs",
 		config = function() require("nvim-autopairs").setup {} end

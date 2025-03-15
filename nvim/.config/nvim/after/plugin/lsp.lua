@@ -40,9 +40,11 @@ null_ls.setup({
   on_attach = null_opts.on_attach,
   sources = {
     -- formatting
-    formatting.black,         -- JavaScript / TypeScript
+    formatting.black,         -- Python
     formatting.prettier,      -- JavaScript / TypeScript
     formatting.terraform_fmt, -- Terraform
+    lint.golangci_lint,       -- Go
+    -- action.gopls,             -- Go
   },
 })
 

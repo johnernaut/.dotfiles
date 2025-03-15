@@ -70,7 +70,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git dotenv pyenv python history tmux vi-mode)
+plugins=(git dotenv history tmux vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -128,6 +128,7 @@ export DOTFILES=$HOME/.dotfiles
 export STOW_FOLDERS="bin,i3,nvim,tmux,zsh"
 export GIT_EDITOR=nvim
 export GOPATH=$HOME/gocode
+export ZIGPATH=$HOME/zig
 
 addToPathFront $HOME/.cargo/env
 addToPathFront $HOME/.rbenv/bin
@@ -136,13 +137,16 @@ addToPathFront /usr/local/go/bin
 addToPathFront /usr/local/bin
 addToPathFront /opt/homebrew/opt/postgresql@12/bin
 addToPathFront $GOPATH/bin
+addToPathFront $ZIGPATH
+addToPathFront $HOME/nvim/bin
+addToPath $HOME/.config/emacs/bin
 
 pys() {
-    python manage.py tenant_command shell --schema=$1
+    python manage.py tenant_command shell_plus --schema=$1
 }
 
 pyt() {
-    python manage.py test $1 --keepdb --failfast
+    python manage.py test $1 --keepdb --failfast --parallel
 }
 
 export PYTHONBREAKPOINT=ipdb.set_trace
@@ -154,6 +158,7 @@ alias vim="nvim"
 alias t="terraform"
 export EDITOR="nvim"
 
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
@@ -162,3 +167,11 @@ export NVM_DIR="$HOME/.nvm"
 
 export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
 eval "$(rbenv init -)"
+
+# pnpm
+export PNPM_HOME="/Users/john/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
