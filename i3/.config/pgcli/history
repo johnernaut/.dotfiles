@@ -1,0 +1,928 @@
+
+# 2023-08-24 08:20:11.257833
++select * instacart.company_employeev2 limi
+
+# 2023-08-24 08:20:15.960590
++select * instacart.company_employeev2 limit 1;
+
+# 2023-08-24 08:20:23.292666
++select * from instacart.company_employeev2 limit 1;
+
+# 2023-08-24 08:20:35.962730
++\q
+
+# 2023-08-24 08:23:11.958212
++select * from instacart.company_employeev2 limit 1;
+
+# 2023-08-24 08:23:15.917281
++\x auto;
+
+# 2023-08-24 08:23:17.987371
++select * from instacart.company_employeev2 limit 1;
+
+# 2023-08-24 08:23:24.749489
++\q
+
+# 2023-08-24 08:26:02.801012
++select * from instacart.company_employeev2 limit 1;
+
+# 2023-08-24 08:26:05.467073
++\q
+
+# 2023-08-24 08:26:11.081883
++select * from instacart.company_employeev2 limit 1;
+
+# 2023-08-24 08:26:28.338374
++\q
+
+# 2023-08-24 08:26:55.566255
++select * from instacart.company_employeev2 limit 1;
+
+# 2023-08-24 08:26:57.273003
++\q
+
+# 2023-08-24 08:27:30.012717
++select * from instacart.company_employeev2 limit 1;
+
+# 2023-08-24 08:27:36.041593
++\q
+
+# 2023-08-24 08:29:24.001548
++select * from instacart.company_employeev2 limit 1;
+
+# 2023-08-24 08:29:47.162655
++\q
+
+# 2023-08-24 08:29:50.009562
++select * from instacart.company_employeev2 limit 1;
+
+# 2023-08-24 08:29:54.012248
++\q
+
+# 2023-08-24 08:31:43.161467
++select * from instacart.company_company limit 1;
+
+# 2023-08-24 08:31:57.437808
++select * from instacart.company_company limit 2;
+
+# 2023-08-24 08:32:13.492837
++select * from instacart.company_companydepartment;
+
+# 2023-08-24 08:32:26.296680
++\q
+
+# 2023-11-30 17:23:03.710808
++exit
+
+# 2023-11-30 17:23:44.105991
++drop schema canva;
+
+# 2023-11-30 17:23:58.517992
++exit
+
+# 2024-01-19 10:57:41.442449
++\q
+
+# 2024-06-01 08:13:26.103547
++select * from public.django_migrations;
+
+# 2024-06-01 08:14:05.642153
++select * from public.customers_client;
+
+# 2024-06-01 08:14:16.292308
++select * from public.customers_domain;
+
+# 2024-06-01 08:19:09.232352
++\q
+
+# 2024-06-01 08:21:11.907180
++select * from public.customers_client;
+
+# 2024-06-01 08:21:26.680892
++drop schema hero;
+
+# 2024-06-01 08:21:44.755610
++drop schema hero cascade;
+
+# 2024-06-01 08:21:55.293421
++select * from public.customers_client;
+
+# 2024-06-01 08:22:08.183303
++\dn
+
+# 2024-06-01 08:22:18.622287
++exit
+
+# 2024-06-01 08:45:05.147590
++\dn
+
+# 2024-06-01 08:45:27.520018
++drop schema notion cascade;
+
+# 2024-06-01 08:45:42.713082
++select * from public.customers_client;
+
+# 2024-06-01 08:46:10.825066
++drop from public.customers_client where schema_name = 'notion';
+
+# 2024-06-01 08:46:17.116902
++drop * from public.customers_client where schema_name = 'notion';
+
+# 2024-06-01 08:46:33.865355
++delete from public.customers_client where schema_name = 'notion';
+
+# 2024-06-01 08:46:45.847412
++select * from public.customers_domain;
+
+# 2024-06-01 08:47:01.983539
++select * from public.customers_client;
+
+# 2024-06-01 08:47:11.550266
++delete from public.customers_client where schema_name = 'notion' cascade;
+
+# 2024-06-01 08:48:02.942342
++delete from public.customers_client where schema_name = 'notion';
+
+# 2024-06-01 08:51:51.098408
++select * from public.customers_client;
+
+# 2024-06-01 08:52:14.328530
++delete from public.customers_domain where tenant_id = 10639;
+
+# 2024-06-01 08:52:21.727078
++delete from public.customers_client where schema_name = 'notion';
+
+# 2024-06-01 08:52:25.234184
++\q
+
+# 2024-06-02 20:42:05.118841
++\du
+
+# 2024-06-02 20:42:09.260834
++exit
+
+# 2024-06-02 20:43:46.614100
++\q
+
+# 2024-06-02 20:44:32.878424
++create database healthchamp_development;
+
+# 2024-06-02 20:44:35.285872
++\q
+
+# 2024-07-25 17:29:00.439515
++select * from standard.*;
+
+# 2024-07-25 17:29:07.301938
++\dt standard.*;
+
+# 2024-07-25 17:29:23.324085
++select * from mastec.company_geo;
+
+# 2024-07-25 17:29:40.651758
++select * from mastec.django_migrations;
+
+# 2024-07-25 17:29:52.035392
++\q
+
+# 2024-08-21 14:20:47.340705
++exit
+
+# 2024-08-25 20:23:43.670130
++\q
+
+# 2024-08-25 20:24:25.499642
++\dt
+
+# 2024-08-25 20:24:46.142876
++\dn
+
+# 2024-08-25 20:24:53.494799
++\q
+
+# 2024-08-25 20:36:34.075766
++select * from mastec.users_email;
+
+# 2024-08-25 20:36:38.017132
++select * from mastec.users_user;
+
+# 2024-08-25 20:36:44.145652
++\q
+
+# 2024-08-25 20:39:48.157840
++select * from mastec.users_user;
+
+# 2024-08-25 20:40:11.857194
++\q
+
+# 2024-08-25 20:41:20.718650
++select * from mastec.users_user;
+
+# 2024-08-25 20:41:23.821223
++\q
+
+# 2024-08-25 20:43:22.928507
++select * from mastec.users_user;
+
+# 2024-08-25 20:46:46.677177
++\q
+
+# 2024-08-25 20:47:05.492225
++select * from mastec.users_user;
+
+# 2024-08-25 20:47:37.865016
++\q
+
+# 2024-08-25 20:52:26.613459
++select * from mastec.users_user;
+
+# 2024-08-25 20:53:17.360193
++\q
+
+# 2024-08-25 20:53:21.570683
++select * from mastec.users_user;
+
+# 2024-08-25 20:53:41.954290
++\q
+
+# 2024-08-25 20:54:38.985815
++select * from mastec.users_user;
+
+# 2024-08-25 20:54:58.194145
++\q
+
+# 2024-08-25 20:55:12.945707
++select * from mastec.users_user;
+
+# 2024-08-25 20:55:49.080531
++\q
+
+# 2024-08-25 20:55:56.244435
++select * from mastec.users_user;
+
+# 2024-08-25 20:56:18.582630
++\q
+
+# 2024-08-26 07:16:02.880921
++select * FROM mastec.users_user;
+
+# 2024-08-26 07:16:06.940850
++\q
+
+# 2024-08-26 07:55:55.393145
++select * FROM mastec.users_user;
+
+# 2024-08-26 07:55:58.057530
++\q
+
+# 2024-08-26 07:56:02.850197
++select * FROM mastec.users_user;
+
+# 2024-08-26 07:56:05.553098
++\q
+
+# 2024-08-28 17:03:34.534404
++select * FROM mastec.users_user;
+
+# 2024-08-28 17:04:08.404938
++\q
+
+# 2024-08-30 08:38:58.133291
++select * FROM mastec.users_user;
+
+# 2024-08-30 08:39:39.905108
++exit
+
+# 2024-08-30 10:36:15.131551
++select * from public.django_session;
+
+# 2024-08-30 10:36:33.106861
++select * from instacart.django_session;
+
+# 2024-08-30 10:36:45.257898
++select * from public.django_session;
+
+# 2024-08-30 10:39:36.933800
++select * from public.django_session order id desc;
+
+# 2024-08-30 10:39:41.811198
++select * from public.django_session;
+
+# 2024-08-30 10:40:18.691616
++\q
+
+# 2024-08-30 10:43:32.455173
++SELECT schema_name
++FROM information_schema.schemata
++WHERE schema_name NOT IN (
++    SELECT table_schema
++    FROM information_schema.tables
++    WHERE table_name = 'django_session'
++);
+
+# 2024-08-30 10:44:15.533849
++\q
+
+# 2024-08-31 08:09:58.908943
++\dt
+
+# 2024-08-31 08:10:05.802802
++drop table users;
+
+# 2024-08-31 08:10:11.550749
++drop table schema_migrations;
+
+# 2024-08-31 08:10:14.287808
++\dt
+
+# 2024-08-31 08:10:14.984144
++\q
+
+# 2024-08-31 08:10:23.225173
++\dt
+
+# 2024-08-31 08:10:35.663333
++select * from schema_migrations;
+
+# 2024-08-31 08:10:44.182463
++drop table schema_migrations;
+
+# 2024-08-31 08:10:45.922981
++\q
+
+# 2024-08-31 08:11:45.761008
++\dt
+
+# 2024-08-31 08:11:50.207559
++drop table schema_migrations;
+
+# 2024-08-31 08:11:52.780650
++\q
+
+# 2024-08-31 08:11:59.569192
++\dt
+
+# 2024-08-31 08:12:02.163140
++drop table schema_migrations;
+
+# 2024-08-31 08:12:05.404664
++\q
+
+# 2024-08-31 08:15:43.175087
++\dt
+
+# 2024-08-31 08:15:50.373796
++drop table schema_migrations;
+
+# 2024-08-31 08:15:52.228996
++\q
+
+# 2024-08-31 08:16:00.154247
++\dt
+
+# 2024-08-31 08:16:03.962595
++drop table schema_migrations;
+
+# 2024-08-31 08:16:06.039524
++\q
+
+# 2024-08-31 08:16:39.522557
++\dt
+
+# 2024-08-31 08:16:41.233203
++\q
+
+# 2024-08-31 14:55:40.550475
++\dt
+
+# 2024-08-31 14:55:44.687129
++drop table schema_migrations;
+
+# 2024-08-31 14:55:50.320380
++drop table database_agents;
+
+# 2024-08-31 14:55:56.602981
++drop table organizations;
+
+# 2024-08-31 14:56:01.320498
++drop table organizations cascade;
+
+# 2024-08-31 14:56:10.142199
++drop table users;
+
+# 2024-08-31 14:56:12.930097
++\dt
+
+# 2024-08-31 14:56:13.999849
++\q
+
+# 2024-08-31 14:57:12.339576
++\dt
+
+# 2024-08-31 14:57:16.590007
++drop table schema_migrations;
+
+# 2024-08-31 14:57:18.591632
++\q
+
+# 2024-08-31 14:57:24.122003
++\dt
+
+# 2024-08-31 14:57:29.203224
++drop table schema_migrations;
+
+# 2024-08-31 14:57:31.637507
++\q
+
+# 2024-08-31 14:59:02.959598
++\dt
+
+# 2024-08-31 14:59:07.223130
++drop table schema_migrations;
+
+# 2024-08-31 14:59:10.822961
++drop table users;
+
+# 2024-08-31 14:59:17.522483
++drop table organizations cascade;
+
+# 2024-08-31 14:59:19.114267
++\dt
+
+# 2024-08-31 14:59:20.115765
++\q
+
+# 2024-08-31 14:59:25.842751
++\dt
+
+# 2024-08-31 14:59:27.446214
++\q
+
+# 2024-09-01 07:32:18.043981
++\dt
+
+# 2024-09-01 07:32:23.532539
++drop table organizations cascade;
+
+# 2024-09-01 07:32:32.420452
++drop table schema_migrations;
+
+# 2024-09-01 07:32:38.038584
++drop table users;
+
+# 2024-09-01 07:32:41.802241
++drop table database_agents;
+
+# 2024-09-01 07:32:43.931061
++\dt
+
+# 2024-09-01 07:32:44.688537
++\q
+
+# 2024-09-02 06:59:03.746162
++select * from schema_migrations;
+
+# 2024-09-02 06:59:08.054980
++\dt
+
+# 2024-09-02 06:59:37.088136
++select * from users;
+
+# 2024-09-02 06:59:50.851060
++\q
+
+# 2024-09-02 07:00:05.594471
++ecit()
+
+# 2024-09-02 07:00:07.119642
++exit()
+
+# 2024-09-02 07:00:16.686518
++\q
+
+# 2024-09-02 08:03:18.818617
++\dt
+
+# 2024-09-02 08:05:46.036302
++\q
+
+# 2024-09-17 06:55:13.046720
++select * from canvasbx.approvals_comptabletemplate_jobs;
+
+# 2024-09-17 06:55:52.649183
++\q
+
+# 2024-09-17 18:25:19.644427
++COPY(select * from fervoenergy.company_employeev2 where eid in ('271', '272', '273', '274', '275', '276', '277', '278', '279', '289')) to '~/Desktop/fervo_employees.csv' WITH CSV HEADER;
+
+# 2024-09-17 18:25:41.644495
++exit
+
+# 2024-09-24 17:03:46.817313
++select * from canvasbx.approvals_approvalmatchingcriteria_managers;
+
+# 2024-09-24 17:03:56.268717
++\q
+
+# 2024-09-26 18:10:17.782248
++select * from public.analytics_instacart_offer_report;
+
+# 2024-09-26 18:10:22.809178
++exit
+
+# 2024-09-26 18:13:26.220541
++select * from public.analytics_instacart_offer_report limit 1;
+
+# 2024-09-26 18:14:36.766398
++select * from public.analytics_instacart_offer_report where first_sent_for_approval >= '2024-06-28 00:00' AND first_sent_for_approval < '2024-09-27 00:00';
+
+# 2024-09-26 18:14:45.149850
++select count(*) from public.analytics_instacart_offer_report where first_sent_for_approval >= '2024-06-28 00:00' AND first_sent_for_approval < '2024-09-27 00:00';
+
+# 2024-09-26 18:15:53.380354
++exit
+
+# 2024-09-26 18:22:23.788011
++select * from public.analytics_instacart_offer_report where first_sent_for_approval >= '2024-06-28 00:00' AND first_sent_for_approval < '2024-09-27 00:00';
+
+# 2024-09-26 18:22:54.655352
++select candidate_name from public.analytics_instacart_offer_report where first_sent_for_approval >= '2024-06-28 00:00' AND first_sent_for_approval < '2024-09-27 00:00';
+
+# 2024-09-26 18:23:05.423155
++exit
+
+# 2024-09-26 18:57:38.042026
++select count(*) from public.analytics_instacart_offer_report where first_sent_for_approval >= '2024-06-28 00:00';
+
+# 2024-09-26 18:57:51.670683
++select first_sent_for_approval from public.analytics_instacart_offer_report where first_sent_for_approval >= '2024-06-28 00:00';
+
+# 2024-09-26 18:58:48.084494
++SELECT column_name, data_type
++FROM information_schema.columns
++WHERE table_name = 'analytics_instacart_offer_report' and column_name = 'first_sent_for_approval';
+
+# 2024-09-26 19:00:11.119210
++SELECT *
++FROM public.analytics_instacart_offer_report
++WHERE first_sent_for_approval::timestamp >= '2024-06-28 00:00'
++  AND first_sent_for_approval::timestamp < '2024-09-27 00:00';
+
+# 2024-09-26 19:00:21.960568
++SELECT count(*)
++FROM public.analytics_instacart_offer_report
++WHERE first_sent_for_approval::timestamp >= '2024-06-28 00:00'
++  AND first_sent_for_approval::timestamp < '2024-09-27 00:00';
+
+# 2024-09-26 19:00:52.466681
++\q
+
+# 2024-10-10 12:01:40.873533
++select * from instacart.*;
+
+# 2024-10-10 12:01:47.755939
++\dt instacart.*
+
+# 2024-10-10 12:02:14.441936
++select * from instacart.users_user_groups;
+
+# 2024-10-10 12:02:51.929003
++select * from instacart.groups_manager_group;
+
+# 2024-10-10 12:03:35.608201
++select * from instacart.auth_group;
+
+# 2024-10-10 12:03:53.518720
++select * from instacart.auth_user_groups;
+
+# 2024-10-10 12:04:06.403465
++select * from instacart.auth_group_permissions;
+
+# 2024-10-10 12:04:30.108113
++select * from instacart.auth_group;
+
+# 2024-10-10 12:04:45.723362
++\q
+
+# 2025-01-14 12:36:43.822776
++select * from appliedsystems.users_email;
+
+# 2025-01-14 12:36:49.253072
++select * from appliedsystems.users_user;
+
+# 2025-01-14 12:36:59.918090
++\q
+
+# 2025-01-14 14:18:21.532158
++drop schema velocityglobal cascade;
+
+# 2025-01-14 14:18:28.423195
++\q
+
+# 2025-01-20 16:51:13.425185
++\c velocityglobal;
+
+# 2025-01-20 16:51:23.633877
++use velocityglobal;
+
+# 2025-01-20 16:51:52.717675
++SET search_path TO velocityglobal;
+
+# 2025-01-20 16:52:02.924131
++select * from company_companydepartment;
+
+# 2025-01-20 16:53:02.093420
++select * from company_companyjob;
+
+# 2025-01-20 16:53:07.909350
++SET search_path TO velocityglobal;
+
+# 2025-01-20 16:53:09.647283
++select * from company_companyjob;
+
+# 2025-01-20 16:53:25.126660
++select * from company_job;
+
+# 2025-01-20 16:54:25.275410
++\q
+
+# 2025-01-21 20:00:26.653613
++select * from company_region;
+
+# 2025-01-21 20:00:30.221963
++SET search_path TO velocityglobal;
+
+# 2025-01-21 20:00:31.736804
++select * from company_region;
+
+# 2025-01-21 20:00:40.837806
++select * from company_geo;
+
+# 2025-01-21 20:00:47.100918
++\q
+
+# 2025-02-19 12:43:00.696393
++select * from ezcater.*;
+
+# 2025-02-19 12:43:15.576097
++select * from ezcater.company_companyrange;
+
+# 2025-02-19 12:43:29.924519
++select * from ezcater.ranges_corange;
+
+# 2025-02-19 12:43:41.858186
++select updated_at from ezcater.ranges_corange;
+
+# 2025-02-19 12:45:21.391062
++\copy (SELECT * FROM ezcater.ranges_corange ORDER BY updated_at) TO '~/Desktop/ranges_corange.csv' WITH CSV HEADER;
+
+# 2025-02-19 12:46:34.591337
++select * from ezcater.company_employeev2;
+
+# 2025-02-19 12:46:52.976203
++select co_range_id from ezcater.company_employeev2;
+
+# 2025-02-19 12:48:21.107295
++\copy (
++    SELECT 
++        r.*, -- Select all columns from ranges_corange
++        e.* -- Select all columns from company_employeev2 (excluding co_range_id if it's duplicated)
++    FROM ezcater.ranges_corange r
++    LEFT JOIN ezcater.company_employeev2 e 
++    ON r.id = e.co_range_id
++    ORDER BY r.updated_at
++) TO '~/Desktop/ranges_corange.csv' WITH CSV HEADER;
+
+# 2025-02-19 12:53:07.409274
++\copy (
++    SELECT 
++        r.*, 
++        j.name AS job_name, 
++        l.name AS level_name, 
++        g.name AS geo_name
++    FROM ezcater.ranges_corange r
++    LEFT JOIN ezcater.company_job j ON r.job_id = j.id
++    LEFT JOIN ezcater.company_level l ON r.level_id = l.id
++    LEFT JOIN ezcater.company_geo g ON r.geo_id = g.id
++    ORDER BY r.updated_at
++) TO '~/Desktop/ranges_corange.csv' WITH CSV HEADER;
+
+# 2025-02-19 12:53:39.555831
++exit
+
+# 2025-02-20 06:27:08.120576
++select * from ezcater.ranges_corange;
+
+# 2025-02-20 06:28:38.637838
++DO $$
++DECLARE
++    rec RECORD;
++    query TEXT;
++BEGIN
++    FOR rec IN 
++        SELECT n.nspname AS schema_name
++        FROM pg_catalog.pg_namespace n
++        JOIN pg_catalog.pg_class c ON c.relnamespace = n.oid
++        JOIN pg_catalog.pg_attribute a ON a.attrelid = c.oid
++        WHERE c.relname = 'ranges_corange'
++          AND a.attname = 'geo_id'
++          AND c.relkind = 'r'  -- Only include tables
++          AND n.nspname NOT IN ('pg_catalog', 'information_schema')
++    LOOP
++        query := FORMAT('SELECT COUNT(*) AS count, ''%s'' AS schema_name FROM %I.ranges_corange WHERE geo_id IS NULL;', rec.schema_name, rec.schema_name);
++        EXECUTE query;
++    END LOOP;
++END $$;
+
+# 2025-02-20 06:29:04.157799
++SELECT n.nspname AS schema_name, COUNT(*) AS null_geo_id_count
++FROM pg_catalog.pg_namespace n
++JOIN pg_catalog.pg_class c ON c.relnamespace = n.oid
++JOIN pg_catalog.pg_attribute a ON a.attrelid = c.oid
++JOIN pg_catalog.pg_attribute a2 ON a2.attrelid = c.oid
++LEFT JOIN pg_catalog.pg_attribute a3 ON a3.attrelid = c.oid
++JOIN pg_catalog.pg_attribute a4 ON a4.attrelid = c.oid
++JOIN pg_catalog.pg_attribute a5 ON a5.attrelid = c.oid
++JOIN pg_catalog.pg_attribute a6 ON a6.attrelid = c.oid
++JOIN pg_catalog.pg_attribute a7 ON a7.attrelid = c.oid
++LEFT JOIN pg_catalog.pg_attribute a8 ON a8.attrelid = c.oid
++JOIN pg_catalog.pg_class r ON r.relname = 'ranges_corange' AND r.relnamespace = n.oid
++JOIN pg_catalog.pg_attribute geo ON geo.attrelid = r.oid AND geo.attname = 'geo_id'
++LEFT JOIN pg_catalog.pg_attribute geo_null ON geo_null.attrelid = r.oid AND geo_null.attname = 'geo_id'
++JOIN pg_catalog.pg_attribute geo_count ON geo_count.attrelid = r.oid AND geo_count.attname = 'geo_id'
++LEFT JOIN pg_catalog.pg_attribute geo_count_null ON geo_count_null.attrelid = r.oid AND geo_count_null.attname = 'geo_id'
++JOIN pg_catalog.pg_attribute geo_count_final ON geo_count_final.attrelid = r.oid AND geo_count_final.attname = 'geo_id'
++LEFT JOIN pg_catalog.pg_attribute geo_count_final_null ON geo_count_final_null.attrelid = r.oid AND geo_count_final_null.attname = 'geo_id'
++JOIN pg_catalog.pg_attribute geo_count_final_final ON geo_count_final_final.attrelid = r.oid AND geo_count_final_final.attname = 'geo_id'
++JOIN pg_catalog.pg_attribute geo_count_final_final_final ON geo_count_final_final_final.attrelid = r.oid AND geo_count_final_final_final.attname = 'geo_id'
++JOIN pg_catalog.pg_attribute geo_count_final_final_final_final ON geo_count_final_final_final_final.attrelid = r.oid AND geo_count_final_final_final_final.attname = 'geo_id'
++JOIN pg_catalog.pg_attribute geo_count_final_final_final_final_final ON geo_count_final_final_final_final_final.attrelid = r.oid AND geo_count_final_final_final_final_final.attname = 'geo_id'
++JOIN pg_catalog.pg_attribute geo_count_final_final_final_final_final_final ON geo_count_final_final_final_final_final_final.attrelid = r.oid AND geo_count_final_final_final_final_final_final.attname = 'geo_id'
++LEFT JOIN pg_catalog.pg_attribute geo_count_final_final_final_final_final_final_null ON geo_count_final_final_final_final_final_final_null.attrelid = r.oid AND geo_count_final_final_final_final_final_final_null.attname = 'geo_id'
++WHERE n.nspname NOT IN ('pg_catalog', 'information_schema')
++GROUP BY n.nspname;
+
+# 2025-02-20 06:31:45.763882
++DO $$
++DECLARE
++    rec RECORD;
++    query TEXT;
++    result INTEGER;
++BEGIN
++    FOR rec IN 
++        SELECT n.nspname AS schema_name
++        FROM pg_catalog.pg_namespace n
++        JOIN pg_catalog.pg_class c ON c.relnamespace = n.oid
++        WHERE c.relname = 'ranges_corange'
++          AND c.relkind = 'r'  -- Only include tables
++          AND n.nspname NOT IN ('pg_catalog', 'information_schema')
++    LOOP
++        query := FORMAT('SELECT COUNT(*) FROM %I.ranges_corange WHERE geo_id IS NULL;', rec.schema_name);
++        EXECUTE query INTO result;
++        RAISE NOTICE 'Schema: %, NULL geo_id Count: %', rec.schema_name, result;
++    END LOOP;
++END $$;
+
+# 2025-02-20 06:31:53.493300
++\q
+
+# 2025-02-20 06:32:39.500780
++DO $$
++DECLARE
++    rec RECORD;
++    query TEXT;
++    result INTEGER;
++BEGIN
++    FOR rec IN 
++        SELECT n.nspname AS schema_name
++        FROM pg_catalog.pg_namespace n
++        JOIN pg_catalog.pg_class c ON c.relnamespace = n.oid
++        WHERE c.relname = 'ranges_corange'
++          AND c.relkind = 'r'  -- Only include tables
++          AND n.nspname NOT IN ('pg_catalog', 'information_schema')
++    LOOP
++        query := FORMAT('SELECT COUNT(*) FROM %I.ranges_corange WHERE geo_id IS NULL;', rec.schema_name);
++        EXECUTE query INTO result;
++        RAISE NOTICE 'Schema: %, NULL geo_id Count: %', rec.schema_name, result;
++    END LOOP;
++END $$;
+
+# 2025-02-20 06:32:44.742282
++exit
+
+# 2025-02-20 06:32:58.473560
++exit()
+
+# 2025-02-20 06:33:06.903883
++exit
+
+# 2025-02-20 06:33:34.329086
++select count(*) from ezcater.ranges_corange where geo_id = NULL;
+
+# 2025-02-20 06:34:12.855374
++select count(*) from canva.ranges_corange where geo_id = NULL;
+
+# 2025-02-20 06:35:22.324053
++select count(*) from instacart.ranges_corange where geo_id = NULL;
+
+# 2025-02-20 06:35:39.851794
++select count(*) from maymobility.ranges_corange where geo_id = NULL;
+
+# 2025-02-20 06:35:43.066639
++exit
+
+# 2025-02-20 07:16:41.326382
++select count(*) from maymobility.ranges_corange;
+
+# 2025-02-20 07:16:47.320488
++select count(*) from maymobility.ranges_coregion;
+
+# 2025-02-20 07:16:55.991856
++select count(*) from maymobility.company_region;
+
+# 2025-02-20 07:17:04.229261
++select count(*) from canva.company_region;
+
+# 2025-02-20 07:17:12.038497
++select count(*) from instacart.company_region;
+
+# 2025-02-20 07:17:20.300227
++select count(*) from velocityglobal.company_region;
+
+# 2025-02-20 07:17:27.761251
++select count(*) from maymobility.company_region;
+
+# 2025-02-20 07:17:49.880212
++select count(*) from interactivebrokers.company_region;
+
+# 2025-02-20 07:18:11.742125
++select count(*) from avalabs.company_region;
+
+# 2025-02-20 07:19:04.056447
++DO $$
++DECLARE
++  rec record;
++  rowcount bigint;
++BEGIN
++  FOR rec IN
++    SELECT table_schema
++    FROM information_schema.tables
++    WHERE table_name = 'company_region'
++  LOOP
++    EXECUTE format('SELECT count(*) FROM %I.company_region', rec.table_schema)
++      INTO rowcount;
++    IF rowcount = 0 THEN
++      RAISE NOTICE 'Schema % has no company_region records', rec.table_schema;
++    END IF;
++  END LOOP;
++END$$;
+
+# 2025-02-20 07:19:39.453106
++select count(*) from safran.company_region;
+
+# 2025-02-20 07:19:45.960575
++select count(*) from safran.company_geo;
+
+# 2025-02-20 07:19:57.082290
++select count(*) from happymoney.company_geo;
+
+# 2025-02-20 07:21:28.146209
++DO $$
++DECLARE
++  rec record;
++  null_count bigint;
++BEGIN
++  FOR rec IN
++    SELECT table_schema
++    FROM information_schema.tables
++    WHERE table_name = 'company_region'
++  LOOP
++    EXECUTE format(
++      'SELECT count(*) FROM %I.company_region WHERE geo_id IS NULL',
++      rec.table_schema
++    )
++      INTO null_count;
++      
++    IF null_count > 0 THEN
++      RAISE NOTICE 'Schema % has % records with a NULL geo_id', rec.table_schema, null_count;
++    END IF;
++  END LOOP;
++END$$;
+
+# 2025-02-20 07:21:51.812653
++exit
+
+# 2025-02-25 07:00:15.496355
++TRUNCATE instacart.ats_ghcustomfield;
+
+# 2025-02-25 07:00:30.473025
++TRUNCATE instacart.ats_ghcustomfield CASCADE;
+
+# 2025-02-25 07:00:36.497218
++exit
+
+# 2025-02-25 07:01:04.427124
++TRUNCATE sbx.ats_ghcustomfield CASCADE;
+
+# 2025-02-25 07:01:07.195068
++\q

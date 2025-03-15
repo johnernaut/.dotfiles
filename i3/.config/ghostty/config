@@ -1,0 +1,12 @@
+font-family = "Source Code Pro for Powerline"
+font-size = 16
+shell-integration = zsh
+theme = tokyonight
+cursor-style = block
+adjust-cell-height = 35%
+mouse-hide-while-typing = true
+mouse-scroll-multiplier = 2
+macos-titlebar-style = hidden
+window-padding-balance = true
+window-save-state = always
+window-colorspace = "display-p3"
